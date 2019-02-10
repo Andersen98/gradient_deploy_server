@@ -1,0 +1,251 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 10086,
+            "max" : [
+                6723
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6724,
+            "max" : [
+                3.0,
+                1.9980669021606445,
+                4.514999866485596
+            ],
+            "min" : [
+                -3.0,
+                0.0019331264775246382,
+                -4.514999866485596
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6724,
+            "max" : [
+                0.7046388387680054,
+                0.9995831251144409,
+                0.7050232887268066
+            ],
+            "min" : [
+                -0.7040379643440247,
+                0.7091837525367737,
+                -0.7050232887268066
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 10086,
+            "max" : [
+                6723
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 6724,
+            "max" : [
+                3.0,
+                1.9980669021606445,
+                4.514999866485596
+            ],
+            "min" : [
+                -3.0,
+                0.0019331264775246382,
+                -4.514999866485596
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 6724,
+            "max" : [
+                0.7046388387680054,
+                0.9995831251144409,
+                0.7050232887268066
+            ],
+            "min" : [
+                -0.7040379643440247,
+                0.7091837525367737,
+                -0.7050232887268066
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 20172,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80688,
+            "byteOffset" : 20172,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80688,
+            "byteOffset" : 100860,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20172,
+            "byteOffset" : 181548,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80688,
+            "byteOffset" : 201720,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80688,
+            "byteOffset" : 282408,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 363096,
+            "uri" : "math4.bin"
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6400000190734865,
+                    0.6400000190734865,
+                    0.6400000190734865,
+                    1.0
+                ],
+                "metallicFactor" : 0.0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Z Function.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Z Function.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 5,
+                        "POSITION" : 4
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558802962303162,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Sun",
+            "translation" : [
+                0.4477892816066742,
+                1.1621708869934082,
+                -0.16382642090320587
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Z Function.003"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Z Function.004",
+            "translation" : [
+                2.146324872970581,
+                0.3339700698852539,
+                -0.17352701723575592
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4,
+                3,
+                2,
+                1,
+                0
+            ]
+        }
+    ]
+}
